@@ -1,7 +1,6 @@
 const { app, BrowserWindow, BrowserView } = require("electron")
 
 app.on('ready', function() {
-    console.log('App is ready');
     const win = new BrowserWindow({
         width: 600,
         height: 400
