@@ -1,0 +1,23 @@
+{
+  "name": "habitica-desktop",
+  "version": "1.0.0",
+  "description": "Desktop Client for Habitica",
+  "main": "main.js",
+  "author": "2gn",
+  "license": "MIT",
+  "build": {
+    "appId": "com.electron.habitica-desktop",
+    "mac": {
+      "category": "public.app-category.productivity"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-buidler"
+  },
+  "devDependencies": {
+    "electron": "17.1.2",
+    "electron-builder": "^22.14.13"
+  }
+}
