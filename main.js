@@ -11,6 +11,9 @@ app.on('ready', function() {
     function fit_width_and_height() {
         habitica_view.setBounds({x: 0, y: 0, width: win.getSize()[0], height: win.getSize()[1]})
     }
+    setTimeout(
+        () => habitica_view.webContents.executeJavaScript("var taskButton = document.getElementById('create-task-btn');taskButton.parentNode.removeChild(taskButton)"), 1000
+    )
     fit_width_and_height()
     
     win.on('resize', function () {
