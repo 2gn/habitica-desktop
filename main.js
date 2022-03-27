@@ -27,6 +27,33 @@ app.on('ready', function() {
             visibility: hidden;
         }
     `)
+    // dark mode
+    if (nativeTheme.shouldUseDarkColors) {
+        habitica_view.webContents.insertCSS(`
+            body, .modal-content {
+                background: #222222 !important;
+            }
+            .tasks-list {
+                background: #333333 !important;
+            }
+            .task-content, .item {
+                background: #444444 !important;
+            }
+            input.form-control.input-search, input.input-search, textarea.form-control.input-search, textarea.input-search, .btn-secondary, .filter-panel {
+                background: #333333 !important;
+            }
+            
+            .col-12 {
+                background: #222222 !important;
+            }
+            .price-label.gold {
+                color: #FFD93D !important;
+            }
+            body, .task-title, .task-notes, checklist-item, h1, h2, h3, h4, h5, h6, .secondary-menu .nav-link, dropdown-label, .btn-secondary, .dropdown {
+                color: #eeede7 !important;
+            }
+        `)
+    }
     win.on('focus', function() {
         // it works but weird. I think I need to find for alternatives.
         habitica_view.webContents.executeJavaScript(`
