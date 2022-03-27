@@ -1,3 +1,5 @@
+<img src="./build/icon.png" width="100px" height="100px" ></img>
+
 # habitica-desktop
 ## description
 very simple, cross-platform [habitica](https://habitica.com) client.
