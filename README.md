@@ -17,4 +17,3 @@ very simple, cross-platform [habitica](https://habitica.com) client.
 
 ## Todos
 * Add fireworks effect triggered when user has completed a task
-* Tweak the color of negative button in "Habits" category in order not to make it outstanding.
