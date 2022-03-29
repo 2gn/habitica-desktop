@@ -14,3 +14,7 @@ very simple, cross-platform [habitica](https://habitica.com) client.
 3. run `yarn install` (using yarn instead of npm is recommended since electron-builder, one of the dependencies of this project recommends.)
 4. run `npm run pack` to build
 5. the app will be located under ./dist/\<your-operating-system\>/
+
+## Todos
+* Add fireword effect triggered when user has completed a task
+* Tweak the color of negative button in "Habits" category in order not to make it outstanding.
