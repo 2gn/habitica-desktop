@@ -30,7 +30,7 @@ app.on('ready', function() {
     let isDarkmode = false;
     
     win.on('focus', function() {
-        // it works but weird. I think I need to find for alternatives.
+        // it works but weird. I think I need to find for some alternatives.
         view.webContents.executeJavaScript(`
             var taskButton = document.getElementById('create-task-btn')
             taskButton.parentNode.removeChild(taskButton)
