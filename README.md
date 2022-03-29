@@ -16,5 +16,5 @@ very simple, cross-platform [habitica](https://habitica.com) client.
 5. the app will be located under ./dist/\<your-operating-system\>/
 
 ## Todos
-* Add fireword effect triggered when user has completed a task
+* Add fireworks effect triggered when user has completed a task
 * Tweak the color of negative button in "Habits" category in order not to make it outstanding.
